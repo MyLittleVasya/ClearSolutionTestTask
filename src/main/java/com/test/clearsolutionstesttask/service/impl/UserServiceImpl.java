@@ -166,7 +166,7 @@ public class UserServiceImpl implements UserService {
       clone.setLastName(lastName);
     }
     if (!user.getBirthDate().equals(birthDate) &&
-        ChronoUnit.YEARS.between(user.getBirthDate(), LocalDate.now()) >= minAge) {
+        ChronoUnit.YEARS.between(birthDate, LocalDate.now()) >= minAge) {
       clone.setBirthDate(birthDate);
     }
     if (!"".equals(address) && !user.getAddress().equals(address)) {
