@@ -113,7 +113,7 @@ public class UserController {
       final String firstName,
       @RequestParam(name = "lastName", required = false, defaultValue = "")
       final String lastName,
-      @RequestParam(name = "birthDate", required = false) @ValidDate
+      @RequestParam(name = "birthDate") @ValidDate
       final LocalDate birthDate,
       @RequestParam(name = "address", required = false, defaultValue = "")
       final String address,
