@@ -1,4 +1,4 @@
-# This is testing task for Teamvoy.
+# This is testing task for ClearSolution.
 ## The main goal of this task was a creation of application, which will interact as API for user management.
 ## Tech stack used for this task is:
 - SpringBoot
